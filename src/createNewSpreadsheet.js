@@ -3,7 +3,7 @@ const XLSX = require("xlsx");
 const { rl } = require("./modules/readline.js");
 const { getTitleName } = require("./modules/functions/readline.getTitleName.js");
 const { getArchiveName } = require("./modules/functions/readline.getArchiveName.js");
-const { saveInfoToJSON } = require("./modules/functions/saveInfoToJson.js");
+const { saveInfoToJSON } = require("./modules/saveInfoToJson.js");
 
 // Process Data (add a new row)
 async function main() {
