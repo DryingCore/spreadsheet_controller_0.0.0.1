@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/createNewSpreadsheet.js"
+    "start": "node src/features/createNewSpreadsheet.js"
   },
   "keywords": [],
   "author": "",

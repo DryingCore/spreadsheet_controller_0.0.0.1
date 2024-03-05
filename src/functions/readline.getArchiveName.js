@@ -1,4 +1,4 @@
-const { rl } = require("../src/modules/readline.js");
+const { rl } = require("../modules/readline.js");
 
 // Ask to the user to give a name for the spreadsheet
 function getArchiveName() {
