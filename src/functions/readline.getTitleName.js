@@ -1,4 +1,4 @@
-const { rl } = require("../modules/readline.js");
+const { rl } = require("../modules/readline");
 
 // Ask to the user to add titles for the spreadsheet
 function getTitleName() {
