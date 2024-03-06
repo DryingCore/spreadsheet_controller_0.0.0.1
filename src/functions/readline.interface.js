@@ -7,8 +7,13 @@ function askUserWhatToDo() {
 		2: "(Press 2) - To Edit a SpreadSheet",
 	};
 
-	console.log("Welcome!");
-	rl.question(`What do you want to do?\n${options[1]}\n${options[2]}\n-----------------------------------------\n`, (option) => option);
+	return new Promise((resolve) => {
+		console.log("Welcome!");
+		rl.question(`What do you want to do?\n${options[1]}\n${options[2]}\n-----------------------------------------\n`, (option) => {
+			resolve(option);
+			rl.close();
+		});
+	});
 }
 
 module.exports = { askUserWhatToDo };
